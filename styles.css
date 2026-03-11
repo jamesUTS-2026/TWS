@@ -25,6 +25,11 @@ html,body {
   color: transparent;
 }
 
+
+.logo h1 {
+  white-space: nowrap;
+}
+
 nav {
   padding: 10px 30px;
   display: flex;

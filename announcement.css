@@ -17,7 +17,7 @@ body {
   width: 100%;
   height: 100vh;
   gap: 20px;
-}
+} 
 
 .slides {
   width: 100%;
@@ -74,10 +74,17 @@ footer {
 
 .logo {
   background: linear-gradient(to right, blue 50%, red 50%);
-  -webkit-background-clip: text;
   display: flex-start;
+  -webkit-background-clip: text;
   color: transparent;
 }
+
+
+.logo h1 {
+  white-space: nowrap;
+}
+
+
 
 nav {
   padding: 10px 30px;
